@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+    "title": "Plage Louzina",
+    "description": "Une plage de sable fin idéale pour la baignade et la détente en famille.",
+    "imageUrl": "https://imgs.search.brave.com/btzHAaoE611wMoTc2EGyO-ecRCni43AAxOnr0rW2inM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI4/MzgxNTE2OC9mci9w/aG90by9hbGdlcmlh/LXdhdmVzLWluLXRo/ZS1tZWRpdGVycmFu/ZWFuLXNlYS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9cVlz/S3pISVkxR3hCZGVR/Y2dLbmtsNkZuZjVj/SzRVUUdxeGhidVhU/cXlDbz0",
+    "tags": ["Plage"]
+  },
+  {
+    "id": "2",
+    "title": "Grande Plage d’El Kala",
+    "description": "La plage principale de la ville, longue étendue de sable avec vue sur le port.",
+    "imageUrl": "https://img.freepik.com/photos-gratuite/ocean-mer-belle-plage-tropicale-ciel-bleu-nuage-blanc-fond_74190-8663.jpg",
+    "tags": ["Plage", "Ville"]
+  },
+  {
+    "id": "3",
+    "title": "Cap Rosa & Phare",
+    "description": "Promontoire rocheux avec un phare historique (1906) offrant des panoramas sur la Méditerranée.",
+    "imageUrl": "https://imgs.search.brave.com/qj8VHd3WFHBL_n5S3ekvZR2vxoaQpBr161o2zuwpanU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dml0YW1pbmVkei5j/b20vcGhvdG9zLzIy/NC8yMjQ2ODAtbGEt/YmVsbGUtcGxhZ2Ut/ZHUtY2FwLXJvc2Et/ZWwta2FsYS5qcGc",
+    "tags": ["Nature", "Histoire"]
+  },
+  {
+    "id": "4",
+    "title": "Parc National d’El Kala",
+    "description": "Réserve UNESCO avec forêts, zones humides, lacs et faune protégés.",
+    "imageUrl": "https://imgs.search.brave.com/tUGhXKNWDtGAdm0eACGUOR6lgOH8bGSpyCxQBq3UGzs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/Lzc0LyVEOCVCQSVE/OCVBNyVEOCVBOCVE/OCVBOV8lRDglQTgl/RDglQUQlRDklOEEl/RDglQjElRDglQTlf/JTIyJUQ4JUI3JUQ5/JTg4JUQ5JTg2JUQ5/JTgyJUQ4JUE5JTIy/LmpwZw",
+    "tags": ["Nature", "Biosphère"]
+  },
+  {
+    "id": "5",
+    "title": "Lac Oubeïra",
+    "description": "Lac d’eau douce classé site Ramsar, refuge pour oiseaux migrateurs.",
+    "imageUrl": "https://imgs.search.brave.com/j5C96_ovY1ME2abBBgM5WV_Z181b2WTj1Y3eOkkNYjw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9yc2lz/LnJhbXNhci5vcmcv/c2l0ZXMvZGVmYXVs/dC9maWxlcy9zdHls/ZXMvbWF4XzY1MHg2/NTAvcHVibGljL1JJ/U2FwcC9maWxlcy80/NjQ4NTgyMi9waWN0/dXJlcy9sYWMlMjBN/ZWxsYWguSlBHP2l0/b2s9SjEwX0FyY0c",
+    "tags": ["Nature", "Oiseaux"]
+  },
+  {
+    "id": "6",
+    "title": "Lac Tonga",
+    "description": "Second lac d’eau douce, entouré de forêts et de chemins de randonnée.",
+    "imageUrl": "https://imgs.search.brave.com/WV7oVy9UYUTyM2C1vyTLL_eBtAF1ojvPel1uG6mFLS0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy85/LzkxL0xhY190b25n/YV9lbF9rYWxhLkpQ/Rw",
+    "tags": ["Nature", "Randonnée", "Oiseaux"]
+  },
+  {
+    "id": "7",
+    "title": "Mosquée & Église Saint‑Cyprien",
+    "description": "Monuments historiques symbolisant le passé religieux de la ville.",
+    "imageUrl": "https://imgs.search.brave.com/UsNydm-ElOizfmjK7opCKJBKkbc7cJL-msvEqygSNBE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTIy/NjA1MjQ5OC9waG90/by90aGUtb2xkLWNo/dXJjaC1vZi1lbC1r/YWxhLWFsZ2VyaWEu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PUZ6TDY0a2U3N1gw/RHR6aUhjNDJkZkxk/bW9tdndIaVQ2R2E0/UVV1N1Rpc0k9",
+    "tags": ["Culture", "Histoire"]
+  },
+  {
+    "id": "8",
+    "title": "Bastion de France",
+    "description": "Ancienne fortification du 16ᵉ siècle liée à la pêche au corail.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/Bastion_de_France_El_Kala.jpg",
+    "tags": ["Histoire", "Architecture"]
+  },
+  {
+    "id": "9",
+    "title": "Zoo & Parc Animalier Brabtia",
+    "description": "Petit parc animalier dans le parc, idéal pour les sorties familiales.",
+    "imageUrl": "https://images.trip.com/zoo_brabtia.jpg",
+    "tags": ["Loisir", "Nature"]
+  },
+  {
+    "id": "10",
+    "title": "Restaurant du Port",
+    "description": "Spécialités de poissons frais et fruits de mer face au port de pêche.",
+    "imageUrl": "https://img.freepik.com/photos-premium/plateau-fruits-mer-frais-table-bois_1048944-37310772.jpg",
+    "tags": ["Gastronomie", "Mer"]
+  },
+  {
+    "id": "11",
+    "title": "Marché local El Kala",
+    "description": "Marché de produits frais, poissons, légumes et artisans locaux.",
+    "imageUrl": "https://img.freepik.com/photos-gratuite/stand-legumes-marche-fermier-local_23-2149185407.jpg",
+    "tags": ["Gastronomie", "Local"]
+  },
+
+  {
+    "id": "13",
+    "title": "Circuit Écotourisme 3 jours",
+    "description": "Parcours pédestre et en voiture : port, moulin, église, Bastion, lacs, plages et Brabtia.",
+    "imageUrl": "https://images.mta.gov.dz/circuit_elkala.jpg",
+    "tags": ["Aventure", "Randonnée", "Culture"]
+  }
+]
