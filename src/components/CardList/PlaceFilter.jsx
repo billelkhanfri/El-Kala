@@ -1,10 +1,9 @@
 import React from "react";
-import { IoIosSearch } from "react-icons/io";
 import {  useState } from "react";
 
 function PlaceFilter({ initialCards, setFilteredCards, setCurrentPage }) {
   const [searchItem, setSearchItem] = useState("");
-
+const [activeTag, setActiveTag] = useState(null);
   const allTags = initialCards.flatMap((card) => card.tags);
   const uniqueTags = [...new Set(allTags)];
 
@@ -13,6 +12,7 @@ function PlaceFilter({ initialCards, setFilteredCards, setCurrentPage }) {
     setFilteredCards(filtered);
     setSearchItem("");
     setCurrentPage(1);
+    setActiveTag(tag);
   };
 
   const handleSearch = (e) => {
@@ -24,12 +24,14 @@ function PlaceFilter({ initialCards, setFilteredCards, setCurrentPage }) {
     setFilteredCards(filtered);
     setCurrentPage(1);
   };
+  
+
 
   return (
     <>
       <div className="relative mb-6">
-        <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-500">
-          <IoIosSearch className="text-2xl" />
+        <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-500 text-xl">
+          🔍{" "}
         </span>
         <input
           id="search"
@@ -44,7 +46,11 @@ function PlaceFilter({ initialCards, setFilteredCards, setCurrentPage }) {
       <div className="flex gap-6 w-full max-w-6xl mx-auto items-start">
         <div className="flex flex-wrap gap-4 flex-grow">
           <button
-            className="px-6 py-2 rounded-md bg-lightWhite text-darkGray hover:bg-lightGray hover:text-white transition-colors duration-300 text-md"
+            className={`px-6 py-2 rounded-md transition-colors duration-300 text-md ${
+              activeTag === null
+                ? "bg-lightGray text-white"
+                : "bg-lightWhite text-darkGray hover:bg-lightGray hover:text-white"
+            }`}
             onClick={() => {
               setFilteredCards(initialCards);
               setSearchItem("");
@@ -55,8 +61,12 @@ function PlaceFilter({ initialCards, setFilteredCards, setCurrentPage }) {
           </button>
           {uniqueTags.map((tag, index) => (
             <button
-              key={index}
-              className="px-6 py-2 rounded-md bg-lightWhite text-darkGray hover:bg-lightGray hover:text-white transition-colors duration-300 text-md"
+              key={tag}
+              className={`px-6 py-2 rounded-md transition-colors duration-300 text-md ${
+                activeTag === tag
+                  ? "bg-lightGray text-white"
+                  : "bg-lightWhite text-darkGray hover:bg-lightGray hover:text-white"
+              }`}
               onClick={() => handleFilter(tag)}
             >
               {tag}

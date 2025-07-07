@@ -7,7 +7,7 @@ function CardList() {
   const [cards, setCards] = useState([]);
   const [filteredCards, setFilteredCards] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const cardsPerPage = 6;
+  const cardsPerPage = 3;
 
   useEffect(() => {
     fetch("../data/cards.json")

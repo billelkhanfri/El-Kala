@@ -8,8 +8,33 @@ function Pagination({ pages, currentPage, setCurrentPage }) {
         behavior:'smooth'
     })
   };
+  const previousPage = currentPage -1;
+  const nextPage = currentPage + 1;
+  const handleNextPage = ()=> {
+    if(nextPage > pages.length) return;
+    window.scrollTo({
+        top:0, 
+        behavior:'smooth'
+    })
+    setCurrentPage(nextPage);
+  }
+  const handlepreviousPage = () => {
+    if(previousPage < 1) return;
+    window.scrollTo({
+        top:0, 
+        behavior:'smooth'
+    })
+    setCurrentPage(previousPage);
+  }
   return (
     <div className="flex justify-center items-center mt-8 gap-4">
+      <button
+        className="px-4 py-2 rounded-md bg-primaryBlue text-white hover:bg-lightGray hover:text-white transition-colors duration-300"
+        onClick={handlepreviousPage}
+        disabled={currentPage === 1}
+      >
+        &#60;
+      </button>
       {pages.map((page, index) => (
         <button
           key={index}
@@ -23,6 +48,13 @@ function Pagination({ pages, currentPage, setCurrentPage }) {
           {page}
         </button>
       ))}
+      <button
+        onClick={handleNextPage}
+        disabled={currentPage === pages.length - 1}
+        className="px-4 py-2 rounded-md bg-primaryBlue text-white hover:bg-lightGray hover:text-white transition-colors duration-300"
+      >
+        &#62;{" "}
+      </button>
     </div>
   );
 }
