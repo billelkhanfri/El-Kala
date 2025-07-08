@@ -8,7 +8,7 @@ const MapView = () => {
   return (
     <MapContainer
       center={position}
-      zoom={14}
+      zoom={11}
       style={{ height: "200px", width: "100%", borderRadius: "16px" }}
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
