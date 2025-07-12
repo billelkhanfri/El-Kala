@@ -27,7 +27,7 @@ function Pagination({ pages, currentPage, setCurrentPage }) {
     setCurrentPage(previousPage);
   }
   return (
-    <div className="flex justify-center items-center mt-8 gap-4">
+    <div className="flex justify-center items-center my-12 gap-4">
       <button
         className="px-4 py-2 rounded-md bg-primaryBlue text-white hover:bg-lightGray hover:text-white transition-colors duration-300"
         onClick={handlepreviousPage}

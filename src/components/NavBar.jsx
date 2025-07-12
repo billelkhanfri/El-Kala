@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
+import { TbMenuDeep } from "react-icons/tb";
+import { CgCloseR } from "react-icons/cg";
 
 const navLinks = [
   { label: "Accueil", href: "/" },
@@ -28,38 +30,9 @@ function NavBar() {
         <nav>
           <button
             onClick={toggle}
-            className="md:hidden text-primaryBlue text-xl font-semibold"
+            className="md:hidden text-primaryBlue text-4xl font-semibold"
           >
-            {isOpen ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                className="fill-current"
-              >
-                <path
-                  d="M18 6L6 18M6 6l12 12"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-            ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 50 50"
-                className="fill-current"
-              >
-                <path
-                  d="M 0 8 L 0 12 L 50 12 L 50 8 Z 
-           M 0 23 L 0 27 L 50 27 L 50 23 Z 
-           M 0 38 L 0 42 L 50 42 L 50 38 Z"
-                />
-              </svg>
-            )}
+            {isOpen ? <CgCloseR /> : <TbMenuDeep />}
           </button>
 
           <ul className="hidden  md:flex space-x-8">

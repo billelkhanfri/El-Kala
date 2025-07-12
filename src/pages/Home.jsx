@@ -1,8 +1,7 @@
-import React from 'react'
-import Banner from '../components/Banner'
-import CardList from '../components/CardList/CardList'
-import AboutSection from '../components/AboutSection'
-
+import React from "react";
+import Banner from "../components/Banner";
+import CardList from "../components/CardList/CardList";
+import AboutSection from "../components/AboutSection";
 function Home() {
   
   return (
@@ -10,9 +9,9 @@ function Home() {
       <Banner />
       <CardList></CardList>
       <AboutSection></AboutSection>
-     
+      
     </>
   );
 }
 
-export default Home
+export default Home;
